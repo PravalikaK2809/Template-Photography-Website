@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins";
+}
+
+body {
+    background: #FFFFFF;
+}
+
+.Header {
+    position: fixed;
+    width: 100%;
+    background: #0D0D0D;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    z-index: 1000;
+}
+
+.Header-Heading {
+    margin-left: 50px;
+    color: #FFFFFF;
+    font-size: 25px;
+}
+
+.Form {
+    margin-right: 50px;
+}
+
+.User-Input {
+    outline: none;
+    border: none;
+    padding: 4px 10px;
+    font-size: 15px;
+    width: 250px;
+}
+
+.Header-Submit {
+    outline: none;
+    border: none;
+    padding: 4px;
+    font-size: 15px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.Header-Submit:hover {
+    background: #D3D3D3;
+}
+
+.Cards {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    padding-top: 70px;
+    justify-content: center;
+}
+
+.Card {
+    position: relative;
+    background: #FFFFFF; 
+    padding: 5px;
+    box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.25);
+    margin: 10px;
+}
+
+.Image-Space {
+    width: 450px;
+    height: 253px;
+    position: relative;
+    overflow: hidden;
+}
+
+.Card-Image {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s all;
+}
+
+.Card-Image:hover {
+    transition: scale(1.5);
+}
+
+.Download-btn:hover {
+    color: aquamarine;
+}
